@@ -2,7 +2,7 @@
 
 An interactive two-player tic-tac-toe game built with React. Players take turns placing X and O on a 3x3 board, and the game detects wins and draws automatically.
 
-**[Live Demo](YOUR-NETLIFY-LINK-HERE)**
+**[Live Demo](https://prismatic-sable-bc31cc.netlify.app/)**
 
 ![Screenshot of the game](tictactoe.png)
 
