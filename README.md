@@ -1,75 +1,77 @@
+# Tic-Tac-Toe in React
 
-# Getting Started with Create React App
+An interactive two-player tic-tac-toe game built with React. Players take turns placing X and O on a 3x3 board, and the game detects wins and draws automatically.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**[Live Demo](YOUR-NETLIFY-LINK-HERE)**
 
-## Available Scripts
+![Screenshot of the game](screenshot.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Two-player gameplay with alternating X and O turns
+- Win detection across all rows, columns, and diagonals
+- Draw detection when the board is full
+- Prevents moves on already-filled squares
+- Restart button to start a new game
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- Add or remove features to match what your game actually does, e.g. move history, score tracking, AI opponent -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- React (functional components and hooks)
+- JavaScript (ES6+)
+- HTML/CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/) (v18 or newer recommended)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Run Locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/hoomanv3xo/tic-tac-toe-react.git
+   cd tic-tac-toe-react
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+   (If the project was created with Vite, use `npm run dev` instead.)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Open the local address shown in the terminal (usually `http://localhost:3000` or `http://localhost:5173`).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## How It Works
 
-### Code Splitting
+The game state (board squares and whose turn it is) is held in React state with `useState`. After every move, the app checks the board against the eight possible winning lines to determine whether there is a winner, a draw, or the game should continue.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## What I Learned
 
-### Analyzing the Bundle Size
+- Structuring a UI into reusable React components
+- Managing state and re-rendering with hooks
+- Lifting state up and passing data through props
+- Implementing game logic separately from UI code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Future Improvements
 
-### Making a Progressive Web App
+- Move history with "jump to move"
+- Single-player mode with a minimax AI opponent
+- Score tracking across rounds
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Author
 
-### Advanced Configuration
+**Hooman Vahdat**
+[LinkedIn](https://linkedin.com/in/hoomanvahdat) | [Portfolio](https://hooman-codes.ca) | [GitHub](https://github.com/hoomanv3xo)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# tic-tac-toe-react
-tic-tac-toe Game in React
->>>>>>> 57a0d77d87a1af5a6ab9fabbb47814ed09050421
