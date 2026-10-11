@@ -4,7 +4,7 @@ An interactive two-player tic-tac-toe game built with React. Players take turns 
 
 **[Live Demo](YOUR-NETLIFY-LINK-HERE)**
 
-![Screenshot of the game](screenshot.png)
+![Screenshot of the game](tictactoe.png)
 
 ## Features
 
